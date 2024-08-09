@@ -1,0 +1,33 @@
+.mainDishItem {
+    width: 400px;
+    height: 350px;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    /* border-bottom: 4px solid rgb(225, 252, 223); */
+    transform: scale(1);
+    transition: all ease-in-out .3s;
+    padding: 2px;   
+}
+.mainDishItem:hover{
+    transform: scale(1.08);
+}
+.mainDishItem svg {
+    font-size: 32px;
+    color: rgb(57, 57, 255);
+    cursor: pointer;
+}
+.mainDishItem p {
+    margin-left: .5rem;
+    font-weight: 800;
+}
+
+
+
+
+
